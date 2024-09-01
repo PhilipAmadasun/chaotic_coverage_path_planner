@@ -1,0 +1,12 @@
+<launch>
+    <group ns="move_base_simple">
+     <rosparam file="$(find chaotic_cpp)/config/ArnoldLogistic.yaml" />  
+    </group>
+
+    <rosparam file="$(find chaotic_cpp)/config/mapzoner.yaml" />
+
+    <node pkg="chaotic_cpp" type="arnold_logistic_coverage.py" name="controlled_chaotic_trajectory_planner"    ns="move_base_simple" output="screen"/>
+
+   <node pkg="chaotic_cpp" type="map_zoner.py" name="mapzoner" output="screen"/>
+    
+</launch> 

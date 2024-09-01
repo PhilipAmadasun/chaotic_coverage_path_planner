@@ -1,0 +1,8 @@
+#mapzoner.yaml
+zones: 25                 # number of zones
+sensing_range: 3.5        # sensing range of lidar or camera
+NumberofThreads: 9        # number of "worker" function threads
+scan_frame: 'base_scan'   # frame_id for the lidar or camera sensor
+Multi-threading: 0        # enables and disables multi-htreading of "worker" function
+                          # "0" to disable. "1" to enable
+desired coverage: 97      # desired total coverage

@@ -1,0 +1,11 @@
+#ArnoldLogistic.yaml
+dt: 2.75           # time step for rk4 approximation
+n_iter: 20         # total number of iterations
+ns: 20             # number of iterations
+dist_to_goal: 19   # number of (x,y) cordinates left in plan to goal
+v: 0.22            # velocity of turtlebot3, change this according to robot being used
+A: 0.5             # <---\ 
+B: 0.25            # <------ Arnold System Parameters
+C: 0.25            # <---/
+
+
