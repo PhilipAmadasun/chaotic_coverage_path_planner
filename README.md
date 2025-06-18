@@ -10,13 +10,12 @@
 This project is the code portion of an [arXiv submission](https://arxiv.org/abs/2305.01834) for the paper "Autonomous Search of Real-Life Environments Combining Dynamical System-Based Path Planning and Unsupervised Learning". This README file provides instructions for installing the neccessary software to build and run the codes. The platforms used to develop these codes are Robot Operating System (ROS). The codes are developed to run in both ROS kinetic and ROS melodic. The following will provide instructions to build and run the chaotic_cpp package with the Turtlebot2 and Turtlebot3, the robots used in the published work. If using this code repository, please cite the work as follows.
 
 ```
-@misc{amadasun2023autonomous,
-      title={Autonomous search of real-life environments combining dynamical system-based path planning and unsupervised learning}, 
-      author={Uyiosa Philip Amadasun and Patrick McNamee and Zahra Nili Ahmadabadi and Peiman Naseradinmousavi},
-      year={2023},
-      eprint={2305.01834},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
+@article{amadasun2025autonomous,
+  title={Autonomous search of real-life environments combining dynamical system-based path planning and unsupervised learning},
+  author={Amadasun, Uyiosa Philip and McNamee, Patrick and Ahmadabadi, Zahra Nili and Naseradinmousavi, Peiman},
+  journal={IEEE Access},
+  year={2025},
+  publisher={IEEE}
 }
 ```
 
